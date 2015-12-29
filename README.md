@@ -1,2 +1,3 @@
-# vim-tips
-Tips for me, a Noob with VIM Editor
+# Dicas de VIM para Noobs
+
+> Sinta-se hackudo
