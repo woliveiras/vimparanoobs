@@ -29,7 +29,7 @@ Eu decidi testar o VIM quando, em um [Meetup](meetup.com/ "Site meetup.com."), v
 
 Isso foi incrível cara.
 
-Me mostrou os poderes do lado negro.
+Me mostrou os poderes do lado negro da força.
 
 **Brincadeira**
 
