@@ -40,5 +40,5 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
 - [Primeiros passos com o VIM](./chapters/initial.md "Primeiros passos com o VIM")
 - [Editando texto](./chapters/files.md "Editando texto")
 - [Executando comandos externos](./chapters/external_comands.md "Executando comandos externos")
-- [Configurando | Mudando o tema, criando alias para os comandos, etc](./chapters/config.md "Configurando o VIM")
-- [Plugins | Como adicionar, alguns pugins maneiros, etc](./chapters/plugins.md "Adicionando plugins")
+- [Configurando | Mudando o tema, criando alias para comandos, etc](./chapters/config.md "Configurando o VIM")
+- [Plugins | Como adicionar plugins, alguns pugins maneiros, etc](./chapters/plugins.md "Adicionando plugins")
