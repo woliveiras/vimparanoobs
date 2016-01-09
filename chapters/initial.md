@@ -19,13 +19,13 @@ $ vimtutor
 ```
 ## Não esquecer
 
-No VIM, quando encontramos uma referência a um comando com letra maiúscula, é letra maiúscula mesmo (`SHIFT + Letra`).
+Se usar o comando :h  ou :help será aberto um helper. Quando  encontrar uma referência a um comando com letra maiúscula, é letra maiúscula mesmo (`SHIFT + Letra`).
 
 Ex.: G - para pular para o final do arquivo.
 
 Você deve pressionar o `SHIFT+G`.
 
-Todo comando (operação) deve ser executado no modo visual.
+Todo comando (operação) deve ser executado no modo visual. Portanto acosume-se a digitar o texto e pressionar `ESC` para poder executar o comando.
 
 ## Formando comandos no VIM
 

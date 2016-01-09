@@ -69,7 +69,7 @@ Podemos voltar onde estávamos a partir de qualquer local fazendo: `numero_da_li
 
 O VIM mantem um histórico de alterações e para mover o cursor até a ultima alteração use `g;`, para mover para a próxima na lista `g,`
 
-## Fechando arquivos
+## Salvando ou fechando arquivos
 
 `:q`  - Sai sem salvar. Será solicitado confirmação se existirem alterações não salvas.
 
@@ -78,6 +78,14 @@ O VIM mantem um histórico de alterações e para mover o cursor até a ultima a
 `:w`  - Salva o arquivo (escreve)
 
 `:wq` - Salva e sai do arquivo
+
+## Salvar como...
+
+Se você estiver em um arquivo e desejar salvar criando um novo, pode usar algo parecido com um "Salvar como...".
+
+Execute ` :w nome ou caminho/nome`.
+
+Se quiser salvar e sair, pode usar o ` :wq nome ou caminho/nome`.
 
 ## Comandos para deletar
 
