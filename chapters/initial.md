@@ -34,7 +34,9 @@ Todo comando (operação) deve ser executado no modo visual. Portanto acosume-se
 Onde:
 
 operator - Comando
+
 count    - Contador para repetir o mesmo comando
+
 motion   - Movimento ou direção para onde executar
 
 [Manipulando arquivos](./files.md "Manipulando arquivos").
