@@ -29,7 +29,7 @@ Todo comando (operação) deve ser executado no modo visual. Portanto acosume-se
 
 ## Formando comandos no VIM
 
-operator count motion
+**operator** **count** **motion**
 
 Onde:
 
