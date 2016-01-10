@@ -9,3 +9,5 @@ Ex.:
 ```
 
 Vai executar o comando ls no Terminal.
+
+Você pode editar um texto, salvar, digitar `:!git add arquivo`. Bom né?
