@@ -89,6 +89,10 @@ O VIM mantem um histórico de alterações e para mover o cursor até a ultima a
 
 `:wq` - Salva e sai do arquivo
 
+`:x`  - Salva e sai do arquivo
+
+`ZZ`  - Salva e sai do arquivo
+
 ## Salvar como...
 
 Se você estiver em um arquivo e desejar salvar criando um novo, pode usar algo parecido com um "Salvar como...".
