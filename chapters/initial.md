@@ -4,8 +4,8 @@
 
 Em sistemas baseados no Debian
 
-```bash
-$ sudo apt-get install vim
+```
+sudo apt-get install vim
 ```
 
 [Em outros sistemas operacionais.](http://www.vim.org/download.php "Página de Download oficial.")
@@ -15,17 +15,19 @@ $ sudo apt-get install vim
 Rode no Terminal
 
 ```
-$ vimtutor
+vimtutor
 ```
 ## Não esquecer
 
-Se usar o comando :h  ou :help será aberto um helper. Quando  encontrar uma referência a um comando com letra maiúscula, é letra maiúscula mesmo (`SHIFT + Letra`).
+Se usar o comando `:h`  ou `:help` será aberto um helper. Quando  encontrar uma referência a um comando com letra maiúscula, é letra maiúscula mesmo (`SHIFT + Letra`).
 
-Ex.: G - para pular para o final do arquivo.
+Ex.:
+
+`G` - para pular para o final do arquivo.
 
 Você deve pressionar o `SHIFT+G`.
 
-Todo comando (operação) deve ser executado no modo visual. Portanto acosume-se a digitar o texto e pressionar `ESC` para poder executar o comando.
+Todo comando (também chamado de operador) deve ser executado no modo visual. Portanto acosume-se a digitar o texto e pressionar `ESC` para poder executar um comando.
 
 ## Formando comandos no VIM
 
@@ -33,10 +35,12 @@ Todo comando (operação) deve ser executado no modo visual. Portanto acosume-se
 
 Onde:
 
-operator - Comando
+`operator` - Operador
 
-count    - Contador para repetir o mesmo comando
+`count`    - Contador para repetir o mesmo comando
 
-motion   - Movimento ou direção para onde executar
+`motion`   - Movimento ou direção para onde executar
 
 [Manipulando arquivos](./files.md "Manipulando arquivos").
+
+[Início](https://github.com/woliveiras/vim-noobs/)
