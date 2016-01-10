@@ -6,6 +6,16 @@
 $ vim caminho/arquivo
 ```
 
+Caso esteja em um arquivo com referência a outro arquivo, você pode abrir o mesmo usando  ` CTRL-w-f` com o cursor sobre o caminho.
+
+Ex.:
+
+` ` `
+/etc/hosts
+` ` `
+
+Se usar o comando  ` CTRL-w-f`, o VIM irá abrir o arquivo hosts.
+
 ## Entrando no modo de inserção
 
 O VIM possui dois modos de operação:
