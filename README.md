@@ -25,15 +25,21 @@ Quem olhar você digitando texto nessa tela:
 
 Vai te achar um monstro das hackeragem, o próprio [Kevin Mitnick](https://en.wikipedia.org/wiki/Kevin_Mitnick "Kevin Mitnick, o Hackudo monstraum.").
 
-Eu decidi testar o VIM quando, em um [Meetup](meetup.com/ "Site meetup.com."), vi um cara escrever uma linha de texto `sufocar cara_da_frente`, digitar `:wq` e o cara que estava sentado na frente dele começou a ficar sem ar!
+Eu decidi testar o VIM quando, em um [Meetup](meetup.com/ "Site meetup.com."), vi um cara escrever a seguinte linha de texto no Terminal:
+
+```
+sufocar cara_da_frente
+```
+
+Pressionar um `ESC` e digitar `:wq` e o cara que estava sentado na frente dele começou a ficar sem ar!
 
 Isso foi incrível cara.
 
-Me mostrou os poderes do lado negro da força.
+Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse poder!"*
 
 **Brincadeira**
 
-Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (<3). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
+Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
 Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações, etc.
 
