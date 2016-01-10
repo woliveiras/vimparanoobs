@@ -10,9 +10,9 @@ Caso esteja em um arquivo com referência a outro arquivo, você pode abrir o me
 
 Ex.:
 
-` ` `
+```
 /etc/hosts
-` ` `
+```
 
 Se usar o comando  ` CTRL-w-f`, o VIM irá abrir o arquivo hosts.
 
@@ -177,3 +177,7 @@ Ao entrar no modo de busca, o VIM deixa o */palavra* na barra inferior, então p
 
 `n` - Para a próxima ocorrência
 `N` - Para a ocorrência anterior
+
+[Executando comandos externos](./chapters/external_comands.md "Executando comandos externos")
+
+[Início](https://github.com/woliveiras/vim-noobs/)
