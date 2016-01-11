@@ -1,4 +1,4 @@
-# Comandos e dicas uteis
+# Operadores e dicas uteis
 
 ## Marcas
 
@@ -72,3 +72,6 @@ Comandos:
 `zj`          - Desce até a próxima dobra
 
 `zk`          - Sobe até a próxima dobra
+
+
+[Início](https://github.com/woliveiras/vim-noobs/)
