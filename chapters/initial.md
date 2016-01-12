@@ -27,7 +27,7 @@ Ex.:
 
 Você deve pressionar o `SHIFT+G`.
 
-Todo comando (também chamado de operador) deve ser executado no modo visual. Portanto acosume-se a digitar o texto e pressionar `ESC` para poder executar um comando.
+Todo comando (também chamado de operador) deve ser executado no Command Mode. Portanto se acostume a digitar o texto e pressionar `ESC` para poder executar um comando.
 
 ## Formando comandos no VIM
 
