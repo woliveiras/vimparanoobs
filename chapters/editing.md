@@ -18,10 +18,12 @@ Se usar o comando  ` CTRL-w-f`, o VIM irá abrir o arquivo hosts.
 
 ## Entrando no modo de inserção
 
-O VIM possui dois modos de operação:
+O VIM possui alguns modos de operação:
 
-- Modo de inserção: Modo para edição propriamente dita do texto.
-- Modo visual: Modo onde as letras do teclado funcionam como comandos (operadores).
+- Insert Mode: Modo para edição propriamente dita do texto.
+- Visual Mode: Modo onde as letras do teclado funcionam como comandos (operadores).
+- Command Mode: Modo onde você insere os comandos.
+- Normal Mode: Modo onde você exclui, deleta, formata o texto.
 
 `i`   - Entra no modo de inserção no local onde o cursor se encontra
 
@@ -35,9 +37,11 @@ O VIM possui dois modos de operação:
 
 `O`   - Adiciona uma linha acima e entra em modo de inserção
 
-`ESC` - Volta ao modo visual
+`ESC` - Volta ao modo normal/comando
 
-*Todos os comandos devem ser digitados no __modo visual__.*
+`v`   - Entra no modo visual
+
+*Todos os comandos devem ser digitados no __modo normal/comando__.*
 
 ## Movendo o cursor
 
