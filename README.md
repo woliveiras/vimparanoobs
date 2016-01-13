@@ -65,5 +65,7 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
   - [Buscar texto dentro do arquivo](./chapters/editing.md#pesquisando-em-um-arquivo "Buscar texto dentro do arquivo")
 - [Executando comandos externos](./chapters/external_comands.md#executando-comandos-externos "Executando comandos externos")
 - [Dicas uteis](./chapters/util.md "Comandos e dicas uteis")
+  - [Criando Marcas](./chapters/util.md#marcas "Criando Marcas")
+  - [Criando Folders (ou dobras no texto)](./chapters/util.md#folders "Criando Folders (ou dobras no texto)")
 - [Personalizando | Mudando o tema, criando alias para comandos, etc](./chapters/config.md "Personalizando o VIM")
 - [Plugins | Como adicionar plugins, alguns pugins maneiros, etc](./chapters/plugins.md "Adicionando plugins")
