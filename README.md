@@ -8,6 +8,7 @@ Criei esse repositório com o objetivo de ser um local para guardar minhas anota
 
 Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
 
+
 ## Introdução
 
 **O que é VIM?**
@@ -42,6 +43,8 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
 Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações, etc.
+
+##Usando o VIM
 
 - [Primeiros passos com o VIM](./chapters/initial.md "Primeiros passos com o VIM")
   - [Formando comandos no VIM](./chapters/initial.md#formando-comandos-no-vim "Formando comandos no VIM")
