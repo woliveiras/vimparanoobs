@@ -182,6 +182,6 @@ Ao entrar no modo de busca, o VIM deixa o */palavra* na barra inferior, então p
 `n` - Para a próxima ocorrência
 `N` - Para a ocorrência anterior
 
-[Executando comandos externos](./chapters/external_comands.md "Executando comandos externos")
+[Executando comandos externos](./external_comands.md "Executando comandos externos")
 
 [Início](https://github.com/woliveiras/vim-noobs/)
