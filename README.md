@@ -44,7 +44,7 @@ Muita gente diz que usar o VIM é mais produtivo do que outros editores como o S
 Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações, etc.
 
 - [Primeiros passos com o VIM](./chapters/initial.md "Primeiros passos com o VIM")
-- [Formando comandos no VIM](./chapters/initial.md#formando-comandos-no-vim "Formando comandos no VIM")
+  - [Formando comandos no VIM](./chapters/initial.md#formando-comandos-no-vim "Formando comandos no VIM")
 - [Edição de texto](./chapters/editing.md "Edição texto")
 - [Executando comandos externos](./chapters/external_comands.md "Executando comandos externos")
 - [Dicas uteis](./chapters/util.md "Comandos e dicas uteis")
