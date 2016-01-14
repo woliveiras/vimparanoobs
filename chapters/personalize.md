@@ -113,3 +113,5 @@ E adicionar ao `.vimrc`
 ```
 au FileType type call SyntaxFoo()
 ```
+
+[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
