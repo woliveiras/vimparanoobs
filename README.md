@@ -68,4 +68,7 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
   - [Criando Marcas](./chapters/util.md#marcas "Criando Marcas")
   - [Criando Folders (ou dobras no texto)](./chapters/util.md#folders "Criando Folders (ou dobras no texto)")
 - [Personalizando o VIM](./chapters/personalize.md "Personalizando o VIM")
+  - [Não precisar setar configurações sempre](./personalize.md#não-precisar-setar-configurações-sempre)
+  - [Comandos e atalhos personalizados](./chapters/personalize.md#comandos-e-atalhos-personalizados)
+  - [Mudando o tema](./chapters/personalize.md#mudando-o-tema)
 - [Plugins](./chapters/plugins.md "Adicionando plugins")
