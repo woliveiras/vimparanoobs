@@ -1,0 +1,3 @@
+# Sugestões
+
+## Alguns plugins maneiros
