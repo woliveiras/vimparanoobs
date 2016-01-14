@@ -74,6 +74,7 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
   - [Adicionando sintaxes](./chapters/personalize.md#adicionando-sintaxes "Adicionando sintaxes")
 - [Plugins](./chapters/plugins.md "Adicionando plugins")
   - [Instalando plugins no VIM](./chapters/plugins.md#instalando-os-plugins-com-vundle "Instalando plugins no VIM")
+  - [Removendo plugins](./chapters/plugins.md#removendo-plugins-com-vundle "Removendo plugins")
   - [Alguns plugins maneiros](./chapters/suggestions.md#alguns-plugins-maneiros "Alguns plugins maneiros")
   - [Temas legais](/chapters/suggestions.md#temas-legais "Temas legais")
   - [Comandos uteis no .vimrc](./chapters/suggestions.md#comandos-uteis-no-vimrc "Comandos uteis no .vimrc")
