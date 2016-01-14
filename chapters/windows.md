@@ -1,6 +1,6 @@
 # Trabalhando com Janelas no VIM
 
-## Dividindo a janela
+## Dividindo em janelas
 
 ## Pulando de uma janela para outra
 
