@@ -184,4 +184,4 @@ Ao entrar no modo de busca, o VIM deixa o */palavra* na barra inferior, então p
 
 [Executando comandos externos](./external_comands.md "Executando comandos externos")
 
-[Início](https://github.com/woliveiras/vim-noobs/)
+[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
