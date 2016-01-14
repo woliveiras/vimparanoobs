@@ -43,7 +43,7 @@ set showcmd
 set showmatch
 ```
 
-## Criando comandos no VIM
+## Comandos e atalhos personalizados
 
 Com a personalização conseguimos criar comandos no VIM através do .vimrc.
 
