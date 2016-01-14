@@ -41,6 +41,4 @@ Onde:
 
 `motion`   - Movimento ou direção para onde executar
 
-[Manipulando arquivos](./files.md "Manipulando arquivos").
-
-[Início](https://github.com/woliveiras/vim-noobs/)
+[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
