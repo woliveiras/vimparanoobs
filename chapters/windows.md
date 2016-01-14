@@ -5,3 +5,5 @@
 ## Pulando de uma janela para outra
 
 ## Fechar janelas
+
+[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
