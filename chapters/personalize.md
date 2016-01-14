@@ -29,18 +29,18 @@ não precisar ficar setando tudo cada vez que abre o editor.
 **Exemplo de arquivo .vimrc:**
 
 ```
-  1 syntax o
-  2 set encoding=utf8
-  3 set number
-  4 set tabstop=2
-  5 set eb
-  6 set autowrite
-  7 set expandtab
-  8 set hlsearch
-  9 set ignorecase
- 10 set incsearch
- 11 set showcmd
- 12 set showmatch
+  syntax o
+  set encoding=utf8
+  set number
+  set tabstop=2
+  set eb
+  set autowrite
+  set expandtab
+  set hlsearch
+  set ignorecase
+  set incsearch
+  set showcmd
+  set showmatch
 ```
 
 ## Criando comandos no VIM
