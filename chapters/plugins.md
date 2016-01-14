@@ -94,8 +94,7 @@ oficial](https://github.com/VundleVim/Vundle.vim).
 
 ## Geradores de vimrc files
 
-[vimconfig.com](http://vimconfig.com/)
-
-[vim-bootstrap.com](http://vim-bootstrap.com/)
+- [vimconfig.com](http://vimconfig.com/)
+- [vim-bootstrap.com](http://vim-bootstrap.com/)
 
 [Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
