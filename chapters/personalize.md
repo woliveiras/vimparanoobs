@@ -21,7 +21,7 @@ preferências você pode usar:
 vim ~/.vimrc
 ```
 
-### Não precisar setar comandos toda vez que abre o VIM
+### Não precisar setar configurações sempre
 
 No arquivo ~/.vimrc você pode setar as configurações para
 não precisar ficar setando tudo cada vez que abre o editor.
