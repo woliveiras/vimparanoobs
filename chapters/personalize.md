@@ -73,15 +73,17 @@ Usando:
 Para encontrar um  esquema de cores maneiro para o seu VIM, você pode
 acessar o site [vimcolors.com](http://vimcolors.com/).
 
+Alguns temas tem suporte ao Vundle, portanto será possível instalar com o mesmo, assim como acontece com [plugins](./plugins.md#instalando-os-plugins-com-vundle).
+
 Será necessário criar uma pasta dentro de `~/.vim` (se a pasta .vim ainda não
 existir, crie ela agora).
 
-Os temas serão instalados, assim como os plugins, dentro de `~/.vim/bundle`.
-Normalmente no README do tema tem o passo a passo de instalação, mas basicamente
+Os temas podem ser clonados dentro de `~/.vim/colors` para melhor organização, porém o Vundle, por exemplo, coloca dentro de `./vim/bundle`.
+Normalmente na documentação do próprio tema tem um passo a passo de instalação, mas basicamente
 você sempre vai fazer:
 
 ```
-cd ~/.vim/colors
+cd ~/.vim/colors #Pasta com esquemas de cores
 git clone esquemadecores.git
 ```
 
@@ -91,4 +93,23 @@ Ex. do [esquema de cores](https://github.com/sickill/vim-monokai) que eu uso atu
 
 ```
 colorscheme monokai 
+```
+
+## Adicionando sintaxes
+
+O mesmo que acontece com os temas ocorre com as sintaxes das linguagens, alguns poderão ser facilmente instalado com o Vundle, outras serão facilmente instaladas manualmente. :)
+
+Basicamente você poderia fazer isso em uma instalação manual:
+
+```
+cd ~/.vim/syntax
+git clone arquivo_sintaxe
+```
+
+*Porém o Vundle também coloca esse tipo de arquivo dentro de `./vim/bundle`.*
+
+E adicionar ao `.vimrc`
+
+```
+au FileType type call SyntaxFoo()
 ```
