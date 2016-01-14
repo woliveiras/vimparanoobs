@@ -71,4 +71,6 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
   - [Não precisar setar configurações sempre](./personalize.md#não-precisar-setar-configurações-sempre)
   - [Comandos e atalhos personalizados](./chapters/personalize.md#comandos-e-atalhos-personalizados)
   - [Mudando o tema](./chapters/personalize.md#mudando-o-tema)
+  - [Adicionando sintaxes](./chapters/personalize.md#adicionando-sintaxes)
 - [Plugins](./chapters/plugins.md "Adicionando plugins")
+- [Trabalhando em Janelas dentro do VIM](./chapters/windows.md)
