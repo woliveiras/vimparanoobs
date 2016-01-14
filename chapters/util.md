@@ -74,4 +74,4 @@ Comandos:
 `zk`          - Sobe até a próxima dobra
 
 
-[Início](https://github.com/woliveiras/vim-noobs/)
+[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
