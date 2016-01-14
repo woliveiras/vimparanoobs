@@ -58,7 +58,7 @@ Para facilitar o workflow criei esse repo para deixar os comandos que mais utili
   - [Salvar como...](./chapters/editing.md#salvar-como "Salvar como...")
   - [Deletando texto](./chapters/editing.md#comandos-para-deletar "Deletando texto")
   - [Copiar e colar dentro do VIM](./chapters/editing.md#copiar-e-colar "Copiar e colar dentro do VIM")
-  - [Recortar e colar dentro do VIM](./editing.md#recortar-e-colar-comando-put "Recortar e colar dentro do VIM")
+  - [Recortar e colar dentro do VIM](./chapters/editing.md#recortar-e-colar-comando-put "Recortar e colar dentro do VIM")
   - [Replace](./chapters/editing.md#substituir-replace "Replace")
   - [Replace em massa usando o operador de pesquisa](./editing.md#substituir-em-massa "Replace em massa usando o operador de pesquisa")
   - [Desfazendo as coisas](./editing.md#desfazendo-as-coisas "Desfazendo as coisas")
