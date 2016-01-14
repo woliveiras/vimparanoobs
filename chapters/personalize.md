@@ -68,7 +68,7 @@ Usando:
 
 `vmap` - Mapeamento no modo visual
 
-## Temas no VIM
+## Mudando o tema
 
 Para encontrar um  esquema de cores maneiro para o seu VIM, você pode
 acessar o site [vimcolors.com](http://vimcolors.com/).
