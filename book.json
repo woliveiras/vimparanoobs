@@ -1,7 +1,7 @@
 {
     "structure": {
         "readme": "intro.md"
-    }
+    },
     "title" : "Vim para Noobs",
     "description": "Sinta-se Hackudo usando esse super editor!",
     "language": "pt"
