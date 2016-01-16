@@ -35,4 +35,4 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
-Para facilitar o workflow criei esse book para deixar os comandos que mais utilizo, configurações, etc.
+Para facilitar o workflow criei esse book para deixar os comandos que mais utilizo, configurações legais, como instalar plugins, etc.

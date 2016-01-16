@@ -1,0 +1,1 @@
+# Alguns plugins maneiros

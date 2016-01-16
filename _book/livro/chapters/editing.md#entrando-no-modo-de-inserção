@@ -1,0 +1,26 @@
+# Inserindo texto
+
+O VIM possui alguns modos de operação:
+
+- Insert Mode: Modo para edição propriamente dita do texto.
+- Visual Mode: Modo onde as letras do teclado funcionam como comandos (operadores).
+- Command Mode: Modo onde você insere os comandos.
+- Normal Mode: Modo onde você exclui, deleta, formata o texto.
+
+`i`   - Entra no modo de inserção no local onde o cursor se encontra
+
+`I`   - Entra no modo de inserção no começo da linha
+
+`a`   - Entra no modo de inserção na frente de onde o cursor se encontra
+
+`A`   - Entra no modo de inserção no final da linha
+
+`o`   - Adiciona uma linha abaixo de onde estiver o cursor e entra em modo de inserção
+
+`O`   - Adiciona uma linha acima e entra em modo de inserção
+
+`ESC` - Volta ao modo normal/comando
+
+`v`   - Entra no modo visual
+
+*Todos os comandos devem ser digitados no __modo normal/comando__.*

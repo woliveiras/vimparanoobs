@@ -1,0 +1,1 @@
+# Comandos uteis no .vimrc
