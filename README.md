@@ -27,7 +27,7 @@ Quem olhar você digitando texto nessa tela:
 
 Vai te achar um monstro das hackeragem, o próprio [Kevin Mitnick](https://en.wikipedia.org/wiki/Kevin_Mitnick "Kevin Mitnick, o Hackudo monstraum.").
 
-Eu decidi testar o VIM quando, em um [Meetup](meetup.com/ "Site meetup.com."), vi um cara escrever a seguinte linha de texto no Terminal:
+Eu decidi testar o VIM quando, em um [Meetup](http://meetup.com/ "Site meetup.com."), vi um cara escrever a seguinte linha de texto no Terminal:
 
 ```
 sufocar cara_da_frente
