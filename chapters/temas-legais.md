@@ -5,6 +5,7 @@ Os que eu mais curti:
 - https://github.com/sickill/vim-monokai
 - https://github.com/altercation/vim-colors-solarized
 - https://github.com/marcopaganini/termschool-vim-theme
+- https://github.com/joshdick/onedark.vim
 
 ## Onde conseguir mais temas?
 
