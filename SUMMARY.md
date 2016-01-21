@@ -18,6 +18,7 @@
 - [Desfazendo as coisas](/chapters/desfazendo-as-coisas.md)
 - [Buscar texto dentro do arquivo](/chapters/pesquisando-em-um-arquivo.md)
 - [Executando comandos externos](/chapters/comandos-externos.md)
+- [Mais comandos de edição de texto](/chapters/edicao-de-texto-basica.md)
 - [Criando Marcas](/chapters/marcas.md)
 - [Criando Folders (ou dobras no texto)](/chapters/dobras-no-texto.md)
 - [Personalizando o Vim](/chapters/personalize.md)
@@ -37,3 +38,5 @@
   - [Dividindo em janelas](/chapters/dividindo-em-janelas.md)
   - [Pulando de uma janela para outra](/chapters/pulando-de-uma-janela-para-outra.md)
   - [Fechando janelas](/chapters/fechar-janelas.md)
+  - [Trabalhando com abas](/chapters/trabalhando-com-abas-no-vim.md)
+- [Referências](/chapters/referencias-vim-para-noobs.md)
