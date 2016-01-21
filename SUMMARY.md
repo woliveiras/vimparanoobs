@@ -26,6 +26,7 @@
   - [Comandos e atalhos personalizados](/chapters/criando-comandos-e-atalhos-personalizados.md)
   - [Mudando o tema](/chapters/mudando-o-tema.md)
   - [Adicionando sintaxes](/chapters/adicionando-sintaxes.md)
+  - [Exemplos de .vimrc](/chapters/exemplos-de-vimrc.md)
 - [Plugins](/chapters/plugins.md)
   - [Instalando plugins no Vim](/chapters/instalando-os-plugins-com-vundle.md)
   - [Localizando plugins com o Vundle](/chapters/pesquisando-por-plugins-no-vundle.md)
