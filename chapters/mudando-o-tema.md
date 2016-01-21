@@ -2,7 +2,7 @@
 
 Para encontrar um  esquema de cores maneiro para o seu Vim, você pode acessar o site [vimcolors.com](http://vimcolors.com/).
 
-Alguns temas tem suporte ao Vundle, portanto será possível instalar com o mesmo, assim como acontece com [plugins](./instalando-os-plugins-com-vundle.md).
+Alguns temas tem suporte ao **Vundle**, portanto será o mesmo processo de instalação que os [plugins](./instalando-os-plugins-com-vundle.md).
 
 Será necessário criar uma a pasta `~/.vim`, se a mesma ainda não existir.
 
