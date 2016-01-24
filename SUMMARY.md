@@ -6,7 +6,7 @@
   - [Formando comandos](/chapters/comandos.md)
 - [Abrindo um arquivo](/chapters/abrindo-um-arquivo.md)
   - [Alternando entre arquivos](/chapters/alternando-entre-arquivos.md)
-- [Movimentos do cursor](/chapters/movendo-o-cursor.md)
+- [Se movimentando pelo texto](/chapters/movendo-o-cursor.md)
 - [Inserindo texto](/chapters/inserindo-texto.md)
   - [Deletando texto](/chapters/comandos-para-deletar.md)
   - [Copiar e colar](/chapters/copiar-e-colar.md)

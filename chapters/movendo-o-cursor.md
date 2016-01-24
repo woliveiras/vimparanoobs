@@ -1,4 +1,4 @@
-# Movimentos do cursor
+# Se movimentando pelo texto
 
 `h`: Esquerda
 
