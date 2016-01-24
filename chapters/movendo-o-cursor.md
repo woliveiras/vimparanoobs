@@ -36,4 +36,4 @@ Para saber sua posição no documento: `CTRL+G`
 
 Podemos voltar onde estávamos a partir de qualquer local fazendo: `numero_da_linha + G`
 
-O VIM mantem um histórico de alterações e para mover o cursor até a ultima alteração use `g;`, para mover para a próxima na lista `g,`
+O Vim mantem um histórico de alterações e para mover o cursor até a ultima alteração use `g;`, para mover para a próxima na lista `g,`
