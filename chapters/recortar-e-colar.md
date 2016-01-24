@@ -2,7 +2,7 @@
 
 ## Recortar e colar dentro do Vim
 
-Para recortar e colar use algum comando para exclusão (x, dd, dw, d$ ou algum comando [formado por você](/comandos.md)), cambie até o local onde deseja salvar e use o comando `p`.
+Para recortar e colar use algum comando para exclusão (x, dd, dw, d$ ou algum comando [formado por você](/comandos.md)), movimente o cursor até o local onde deseja colar e use o comando `p`.
 
 A ultima coisa deletada será inserida depois do cursor.
 
