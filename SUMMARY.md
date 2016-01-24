@@ -11,7 +11,7 @@
   - [Deletando texto](/chapters/comandos-para-deletar.md)
   - [Copiar e colar](/chapters/copiar-e-colar.md)
   - [Recortar e colar](/chapters/recortar-e-colar.md)
-  - [Copiar para a área de transferência](/chapters/copiar-para-o-clipboard.md)
+  - [Copiar para o clipboard](/chapters/copiar-para-o-clipboard.md)
   - [Replace](/chapters/substituir-replace.md)
   - [Desfazendo as coisas](/chapters/desfazendo-as-coisas.md)
   - [Buscar texto dentro do arquivo](/chapters/pesquisando-em-um-arquivo.md)
