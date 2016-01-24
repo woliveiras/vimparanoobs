@@ -4,9 +4,7 @@
 
 Use `rx`, onde x é o novo caractere a ser inserido onde estiver o cursor.
 
-Outra maneira é fazer com `R`.
-
-Executando dessa maneira irá aparecer na barra inferior o alerta: **-- REPLACE --**, então basta digitar a nova palavra.
+Outra maneira é fazer com `R`. Executando dessa maneira, irá aparecer na barra inferior o alerta **-- REPLACE --**, então basta digitar a nova palavra.
 
 ## Substituir em massa
 
