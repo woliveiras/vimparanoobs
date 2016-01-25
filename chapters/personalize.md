@@ -21,4 +21,4 @@ Caso você já manje de `vimrc` e deseja só usar algum pronto com coisas maneir
 - [vimconfig.com](http://vimconfig.com/)
 - [vim-bootstrap.com](http://vim-bootstrap.com/)
 
-Se você nunca trabalhou ou não conhece muito sobre Vim, o melhor é ir criando o seu próprio .vimrc. Não tem problema olhar o dos outros e inspirar-se neles, mas criando o seu você vai aprender mais e também vai deixar perfeito para as suas necessidades.
+Se você nunca usou ou não conhece muito sobre Vim, o melhor é ir criando o seu próprio .vimrc. Não tem problema olhar o dos outros e inspirar-se neles, mas criando o seu você vai aprender mais e também vai deixar perfeito para as suas necessidades.
