@@ -1,11 +1,6 @@
 # Comandos uteis no .vimrc
 
-Você pode achar vários comandos úteis dando uma olhada nesses arquivos de .vimrc:
-
-- https://github.com/Floby/vim-config/blob/master/vimrc
-- https://github.com/alessioalex/dotfiles/blob/master/vimrc
-- https://github.com/smith/vim-config/blob/master/vimrc
-- https://github.com/aureooms/dotfiles/blob/master/.vimrc
+Você pode achar vários comandos úteis dando uma olhada [nesses arquivos de .vimrc](/exemplos-de-vimrc.html).
 
 No meu .vimrc só coloquei o que estou usando até agora:
 
