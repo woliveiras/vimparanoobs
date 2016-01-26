@@ -11,3 +11,5 @@ Os que eu mais curti:
 
 - http://vimcolors.com/
 - http://www.vimninjas.com/2012/08/26/10-vim-color-schemes-you-need-to-own/
+
+Você pode criar seu próprio tema [aqui](http://mswift42.github.io/themecreator/).
