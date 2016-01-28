@@ -19,6 +19,7 @@ Alguns plugins legais de se utilizar no seu Vim:
 - `Um autocomplete com base no que você está digitando` : [supertab](https://github.com/ervandew/supertab)
 - `Alinhamento de texto` : [tabular-vim](http://vimcasts.org/episodes/aligning-text-with-tabular-vim)
 - `Python autocompletion` : [jedi-vim](https://github.com/davidhalter/jedi-vim)
+- `Barra inferior com algumas informações bem úteis` : [Airline](https://github.com/vim-airline/vim-airline)
 
 ## Onde encontrar mais plugins?
 
