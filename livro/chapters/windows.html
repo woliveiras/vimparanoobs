@@ -1,0 +1,759 @@
+<!DOCTYPE HTML>
+<html lang="pt" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Trabalhando em Janelas dentro do Vim | Vim para Noobs</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../chapters/trabalhando-com-abas-no-vim.html" />
+    
+    
+    <link rel="prev" href="../chapters/comandos-uteis-no-vimrc.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="36"
+        data-chapter-title="Trabalhando em Janelas dentro do Vim"
+        data-filepath="chapters/windows.md"
+        data-basepath=".."
+        data-revision="Fri Jan 29 2016 07:08:56 GMT-0200 (BRST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introdução
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="chapters/inicio.html">
+            
+                
+                    <a href="../chapters/inicio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Primeiros passos com o Vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="chapters/instalacao.html">
+            
+                
+                    <a href="../chapters/instalacao.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Instalando o Vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="chapters/modos.html">
+            
+                
+                    <a href="../chapters/modos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Modos de operação
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="chapters/comandos.html">
+            
+                
+                    <a href="../chapters/comandos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Formando comandos
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="chapters/abrindo-um-arquivo.html">
+            
+                
+                    <a href="../chapters/abrindo-um-arquivo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Abrindo um arquivo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="chapters/alternando-entre-arquivos.html">
+            
+                
+                    <a href="../chapters/alternando-entre-arquivos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Alternando entre arquivos
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="chapters/movendo-o-cursor.html">
+            
+                
+                    <a href="../chapters/movendo-o-cursor.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Se movimentando pelo texto
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="chapters/inserindo-texto.html">
+            
+                
+                    <a href="../chapters/inserindo-texto.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Inserindo texto
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="chapters/comandos-para-deletar.html">
+            
+                
+                    <a href="../chapters/comandos-para-deletar.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Deletando texto
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="chapters/copiar-e-colar.html">
+            
+                
+                    <a href="../chapters/copiar-e-colar.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Copiar e colar
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="chapters/recortar-e-colar.html">
+            
+                
+                    <a href="../chapters/recortar-e-colar.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        Recortar e colar
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="chapters/copiar-para-o-clipboard.html">
+            
+                
+                    <a href="../chapters/copiar-para-o-clipboard.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        Copiar para o clipboard
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="chapters/substituir-replace.html">
+            
+                
+                    <a href="../chapters/substituir-replace.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Replace
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="chapters/desfazendo-as-coisas.html">
+            
+                
+                    <a href="../chapters/desfazendo-as-coisas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        Desfazendo as coisas
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="chapters/pesquisando-em-um-arquivo.html">
+            
+                
+                    <a href="../chapters/pesquisando-em-um-arquivo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        Buscar texto dentro do arquivo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="chapters/comandos-externos.html">
+            
+                
+                    <a href="../chapters/comandos-externos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        Executando comandos externos
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="17" data-path="chapters/salvando-ou-fechando-arquivos.html">
+            
+                
+                    <a href="../chapters/salvando-ou-fechando-arquivos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>17.</b>
+                        
+                        Salvando e fechando arquivos
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="18" data-path="chapters/salvar-como.html">
+            
+                
+                    <a href="../chapters/salvar-como.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.</b>
+                        
+                        Salvar como...
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="19" data-path="chapters/edicao-de-texto-basica.html">
+            
+                
+                    <a href="../chapters/edicao-de-texto-basica.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.</b>
+                        
+                        Mais comandos de edição de texto
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="20" data-path="chapters/marcas.html">
+            
+                
+                    <a href="../chapters/marcas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>20.</b>
+                        
+                        Criando Marcas
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="21" data-path="chapters/dobras-no-texto.html">
+            
+                
+                    <a href="../chapters/dobras-no-texto.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>21.</b>
+                        
+                        Criando Folders (ou dobras no texto)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="22" data-path="chapters/personalize.html">
+            
+                
+                    <a href="../chapters/personalize.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>22.</b>
+                        
+                        Personalizando o Vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="23" data-path="chapters/salvar-preferencias-vim.html">
+            
+                
+                    <a href="../chapters/salvar-preferencias-vim.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>23.</b>
+                        
+                        Salvando suas preferências
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="24" data-path="chapters/criando-comandos-e-atalhos-personalizados.html">
+            
+                
+                    <a href="../chapters/criando-comandos-e-atalhos-personalizados.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>24.</b>
+                        
+                        Comandos e atalhos personalizados
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="25" data-path="chapters/mudando-o-tema.html">
+            
+                
+                    <a href="../chapters/mudando-o-tema.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>25.</b>
+                        
+                        Mudando o tema
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="26" data-path="chapters/temas-legais.html">
+            
+                
+                    <a href="../chapters/temas-legais.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>26.</b>
+                        
+                        Temas legais
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="27" data-path="chapters/adicionando-sintaxes.html">
+            
+                
+                    <a href="../chapters/adicionando-sintaxes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>27.</b>
+                        
+                        Adicionando sintaxes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="28" data-path="chapters/exemplos-de-vimrc.html">
+            
+                
+                    <a href="../chapters/exemplos-de-vimrc.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>28.</b>
+                        
+                        Exemplos de .vimrc
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="29" data-path="chapters/plugins.html">
+            
+                
+                    <a href="../chapters/plugins.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>29.</b>
+                        
+                        Plugins
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="30" data-path="chapters/instalando-os-plugins-com-vundle.html">
+            
+                
+                    <a href="../chapters/instalando-os-plugins-com-vundle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>30.</b>
+                        
+                        Instalando plugins no Vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="31" data-path="chapters/pesquisando-por-plugins-no-vundle.html">
+            
+                
+                    <a href="../chapters/pesquisando-por-plugins-no-vundle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>31.</b>
+                        
+                        Localizando plugins com o Vundle
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="32" data-path="chapters/removendo-plugins-com-vundle.html">
+            
+                
+                    <a href="../chapters/removendo-plugins-com-vundle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>32.</b>
+                        
+                        Removendo plugins
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="33" data-path="chapters/atualizando-plugins.html">
+            
+                
+                    <a href="../chapters/atualizando-plugins.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>33.</b>
+                        
+                        Atualizando plugins
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="34" data-path="chapters/alguns-plugins-maneiros.html">
+            
+                
+                    <a href="../chapters/alguns-plugins-maneiros.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>34.</b>
+                        
+                        Alguns plugins maneiros
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="35" data-path="chapters/comandos-uteis-no-vimrc.html">
+            
+                
+                    <a href="../chapters/comandos-uteis-no-vimrc.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>35.</b>
+                        
+                        Comandos uteis no .Vimrc
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="36" data-path="chapters/windows.html">
+            
+                
+                    <a href="../chapters/windows.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>36.</b>
+                        
+                        Trabalhando em Janelas dentro do Vim
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="37" data-path="chapters/trabalhando-com-abas-no-vim.html">
+            
+                
+                    <a href="../chapters/trabalhando-com-abas-no-vim.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>37.</b>
+                        
+                        Trabalhando com abas
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="38" data-path="chapters/referencias-vim-para-noobs.html">
+            
+                
+                    <a href="../chapters/referencias-vim-para-noobs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>38.</b>
+                        
+                        Referências
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Publicado com GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Vim para Noobs</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="trabalhando-com-janelas-no-vim">Trabalhando com Janelas no VIM</h1>
+<p><code>:vsp</code> : Divide a janela verticalmente</p>
+<p><code>:sp</code> : Divide horizontalmente</p>
+<p>Voc&#xEA; pode abrir arquivos diretamente na outra metade da janela com: <code>comando arquivo</code>.</p>
+<p>Ex.:</p>
+<pre><code>:vsp arquivo_x
+</code></pre><p>Para alternar entre as duas metades voc&#xEA; pode usar <code>CTRL+w</code> seguido da dire&#xE7;&#xE3;o da janela.</p>
+<p>Ex.:</p>
+<pre><code>CTRL+w+l
+</code></pre><p>Vai para a janela da direita.</p>
+<p>Se voc&#xEA; quiser ficar somente com uma janela ativa use o comando <code>:only</code> na janela em quest&#xE3;o.</p>
+<p>Para fechar uma janela use: <code>:quit</code></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapters/comandos-uteis-no-vimrc.html" class="navigation navigation-prev " aria-label="Previous page: Comandos uteis no .Vimrc"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapters/trabalhando-com-abas-no-vim.html" class="navigation navigation-next " aria-label="Next page: Trabalhando com abas"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"disqus":{"shortName":"woliveiras","useIdentifier":false},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
