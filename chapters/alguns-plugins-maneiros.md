@@ -3,6 +3,7 @@
 Alguns plugins legais de se utilizar no seu Vim:
 
 - `JavaScript Syntax` : [vim-java-syntax](https://github.com/jelera/vim-javascript-syntax)
+- `JavaScript snippets` : [vim-javaScript-snippets](https://github.com/grvcoelho/vim-javascript-snippets)
 - `JSLint` : [jslint.vim](https://github.com/hallettj/jslint.vim)
 - `JSBeautify` : [vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify)
 - `Jade` : [vim-jade](https://github.com/digitaltoad/vim-jade)
