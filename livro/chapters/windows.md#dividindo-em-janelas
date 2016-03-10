@@ -1,1 +1,0 @@
-# Dividindo em janelas
