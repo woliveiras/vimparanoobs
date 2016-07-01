@@ -45,4 +45,4 @@ Muita gente diz que usar o VIM é mais produtivo do que outros editores como o S
 
 Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações legais, como instalar plugins, etc.
 
-Leia o conteúdo inteiro no [Gitbook](http://woliveiras.com.br/vim-para-noobs/livro/)
+Leia o conteúdo inteiro no [Gitbook](https://woliveiras.com.br/vimparanoobs)
