@@ -8,8 +8,6 @@ Criei esse repositório com o objetivo de ser um local para guardar minhas anota
 
 Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
 
-[Pular Introdução](https://github.com/woliveiras/vim-para-noobs)
-
 ## Introdução
 
 **O que é VIM?**
