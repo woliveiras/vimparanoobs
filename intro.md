@@ -6,7 +6,7 @@
 
 **O que é VIM?**
 
-Se você veio até aqui e nem mesmo sabe o que é [VIM](http://www.vim.org/), da uma olhada [aqui](http://aurelio.net/vim/vi-vim-venci.html) e, se quiser baixar um livro legal sobre o editor, olha [aqui](https://code.google.com/p/vimbook/downloads/list).
+Se você caiu nesse repositório e nem mesmo sabe o que é [VIM](http://www.vim.org/), da uma olhada [aqui](https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/), [aqui](http://aurelio.net/vim/vi-vim-venci.html) e, se quiser baixar um livro legal sobre o editor, olha [aqui](https://code.google.com/p/vimbook/downloads/list).
 
 **Por que usar VIM?**
 
