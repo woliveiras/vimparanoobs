@@ -65,6 +65,12 @@ Recomento que, antes de efetuar alguma alteração, dê uma lida na documentaç�
 
 Siga o passo a passo para configuração do seu ambiente de desenvolvimento com GitBookIO utilizando o manual oficial da ferramenta, [aqui](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
 
+Assim que tiver tudo configurado, execute o comando:
+
+`gitbook install`
+
+Na raiz desse projeto, para instalar as dependências do Vim para Noobs.
+
 **Rodando local**
 
 Basta utilizar o comando:
