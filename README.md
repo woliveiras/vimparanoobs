@@ -4,9 +4,17 @@
 
 ## Por que desse repositório?
 
-Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor.
+Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor [VIM](http://www.vim.org/).
+
+Com o passar do tempo o repositório ficou um [pouco grande](https://github.com/woliveiras/vimparanoobs/tree/master) e meio difícil de dar manutenção. Para facilitar minha vida e a de quem utiliza esse guia, transformei isso aqui em um [GitBook](https://www.gitbook.com/), porém utilizando meu próprio repositório com o [GitBookIO](https://github.com/GitbookIO/gitbook). - Dica do [Jota Teles](https://github.com/woliveiras/vimparanoobs/issues/1).
 
 Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
+
+Leia o conteúdo inteiro no [Gitbook](http://woliveiras.com.br/vim-para-noobs/livro/)
+
+## Contribua com o Vim para Noobs
+
+Esse projeto é Open Source e aceita contribuições! Da uma olhada [aqui](https://github.com/woliveiras/vimparanoobs/blob/source/README.md#como-contribuir-com-o-projeto).
 
 ## Introdução
 
