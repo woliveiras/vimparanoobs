@@ -2,9 +2,16 @@
 
 > Sinta-se hackudo
 
-## Por que desse repositório?
+## Sumário
 
-Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor VIM.
+- [Por que desse projeto](#por-que-desse-projeto)
+- [Introdução](#introdução)
+- [Como contribuir com o projeto]()
+- []()
+
+## Por que desse projeto
+
+Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor [VIM](http://www.vim.org/).
 
 Com o passar do tempo o repositório ficou um [pouco grande](https://github.com/woliveiras/vimparanoobs/tree/master) e meio difícil de dar manutenção. Para facilitar minha vida e a de quem utiliza esse guia, transformei isso aqui em um [GitBook](https://www.gitbook.com/), porém utilizando meu próprio repositório com o [GitBookIO](https://github.com/GitbookIO/gitbook). - Dica do [Jota Teles](https://github.com/woliveiras/vimparanoobs/issues/1).
 
@@ -48,3 +55,5 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
 *Quem sabe mais pra frente eu abandone de vez os outros editores.* ;D
+
+## Como contribuir com o projeto
