@@ -4,7 +4,7 @@
 
 ## Por que desse repositório?
 
-Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor.
+Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor VIM.
 
 Com o passar do tempo o repositório ficou um [pouco grande](https://github.com/woliveiras/vimparanoobs/tree/master) e meio difícil de dar manutenção. Para facilitar minha vida e a de quem utiliza esse guia, transformei isso aqui em um [GitBook](https://www.gitbook.com/), porém utilizando meu próprio repositório com o [GitBookIO](https://github.com/GitbookIO/gitbook). - Dica do [Jota Teles](https://github.com/woliveiras/vimparanoobs/issues/1).
 
@@ -46,7 +46,5 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 **Brincadeira**
 
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
-
-Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações legais, como instalar plugins, etc.
 
 *Quem sabe mais pra frente eu abandone de vez os outros editores.* ;D
