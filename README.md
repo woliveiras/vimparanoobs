@@ -77,6 +77,36 @@ Basta utilizar o comando:
 
 `gitbook serve`
 
+**Adicionando uma nova sessão/capitulo**
+
+Para adicionar uma nova sessão, devemos criar um arquivo Markdown dentro da pasta `chapters`. Esse arquivo deve possuir um nome que condiz com o seu conteúdo.
+
+Em seguida basta adicionar a referência ao arquivo no `SUMMARY.md`.
+
+Ex.:
+
+`/SUMMARY.md`
+
+- [Nova sessão](/chapters/nova-sessao.md)
+
+Atente-se para que a nova sessão tenha um fluxo com o que o livro tem seguido.
+
+Por exemplo: 
+
+- Introdução
+- Matando demonios com o VIM
+- Primeiros passos
+
+Não seria algo intuitivo a um iniciante no VIM, pois apresentaria muita magia negra de uma só vez antes mesmo de ensinar os primeiros passos com o editor.
+
+Caso você não saiba onde colocar sua nova sessão, podemos conversar nas issues. Basta abrir e informar o que está fazendo.
+
+**Escrevendo a página**
+
+A escrita dos capitulos é simples. É puro Markdown.
+
+Caso você não saiba Markdown, recomendo dar uma olhada nesse [link](https://daringfireball.net/projects/markdown/syntax).
+
 **Enviando sua contribuição**
 
 Assim que finalizar suas alterações, envie um [Pull Request](https://help.github.com/articles/creating-a-pull-request/) e aguarde. :)
