@@ -85,9 +85,11 @@ Em seguida basta adicionar a referência ao arquivo no `SUMMARY.md`.
 
 Ex.:
 
-`/SUMMARY.md`
+```
+/SUMMARY.md
 
 - [Nova sessão](/chapters/nova-sessao.md)
+```
 
 Atente-se para que a nova sessão tenha um fluxo com o que o livro tem seguido.
 
@@ -106,6 +108,10 @@ Caso você não saiba onde colocar sua nova sessão, podemos conversar nas issue
 A escrita dos capitulos é simples. É puro Markdown.
 
 Caso você não saiba Markdown, recomendo dar uma olhada nesse [link](https://daringfireball.net/projects/markdown/syntax).
+
+**Estáticos**
+
+As imagens do projeto ficam na pasta `images` e você pode referênciar elas normalmente usando a sintaxe Markdown.
 
 **Enviando sua contribuição**
 
