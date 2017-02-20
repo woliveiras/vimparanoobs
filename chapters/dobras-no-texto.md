@@ -11,7 +11,7 @@ Ao criar um folder de 10 linhas, por exemplo, o texto ficará assim:
 Para isso faríamos:
 
 ```
-xf10j
+zf10j
 ```
 
 Para abrir novamente essas linhas, movemos o cursor até o local com `+-- 10...` e executamos:
