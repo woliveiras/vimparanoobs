@@ -10,7 +10,7 @@ Com o passar do tempo o repositório ficou um [pouco grande](https://github.com/
 
 Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
 
-Leia o conteúdo inteiro no [Gitbook](http://woliveiras.com.br/vim-para-noobs/livro/)
+Leia o conteúdo inteiro no [Gitbook](https://woliveiras.com.br/vimparanoobs)
 
 ## Contribua com o Vim para Noobs
 
