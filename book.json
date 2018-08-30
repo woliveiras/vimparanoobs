@@ -4,11 +4,5 @@
     },
     "title" : "Vim para Noobs",
     "description": "Sinta-se Hackudo usando esse super editor!",
-    "language": "pt",
-    "plugins": ["disqus"],
-    "pluginsConfig": {
-      "disqus": {
-        "shortName": "woliveiras"
-       }
-    }
+    "language": "pt"
 }
