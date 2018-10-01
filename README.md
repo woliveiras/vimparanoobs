@@ -18,7 +18,7 @@ Se você caiu nesse repositório e nem mesmo sabe o que é [VIM](http://www.vim.
 
 **Por que usar VIM?**
 
-Pra se sentir Hackudo/Hackero/Hackerzaum/Monstro das programaçaum/pra parecer Hacker de filme, etc
+Pra se sentir Hackudo/Hackero/Hackerzaum/Monstro das programaçaum/pra parecer Hacker de filme, tipo Elliot de Mr. Robot, etc.
 
 Quem olhar você digitando texto nessa tela:
 
