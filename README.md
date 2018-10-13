@@ -6,7 +6,7 @@
 
 Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor.
 
-Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
+Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com):D
 
 [Pular Introdução](https://github.com/woliveiras/vim-para-noobs)
 
@@ -18,7 +18,7 @@ Se você caiu nesse repositório e nem mesmo sabe o que é [VIM](http://www.vim.
 
 **Por que usar VIM?**
 
-Pra se sentir Hackudo/Hackero/Hackerzaum/Monstro das programaçaum/pra parecer Hacker de filme, etc
+Pra se sentir Hackudo/Hackero/Hackerzaum/Monstro das programaçaum/pra parecer Hacker de filme, etc.
 
 Quem olhar você digitando texto nessa tela:
 
@@ -43,6 +43,6 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
-Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações legais, como instalar plugins, etc.
+Para facilitar o workflow criei esse repositório para deixar os comandos que mais utilizo, configurações legais, como instalar plugins, etc.
 
 Leia o conteúdo inteiro no [Gitbook](https://woliveiras.com.br/vimparanoobs/)
