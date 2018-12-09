@@ -2,19 +2,27 @@
 
 > Sinta-se hackudo
 
-## Por que desse repositório?
+## Sumário
 
-Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor.
+- [Por que desse projeto](#por-que-desse-projeto)
+- [Introdução](#introdução)
+- [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
+
+## Por que desse projeto
+
+Criei esse repositório com o objetivo de ser um local para guardar minhas anotações enquanto aprendo a usar o editor [VIM](http://www.vim.org/).
+
+Com o passar do tempo o repositório ficou um [pouco grande](https://github.com/woliveiras/vimparanoobs/tree/master) e meio difícil de dar manutenção. Para facilitar minha vida e a de quem utiliza esse guia, transformei isso aqui em um [GitBook](https://www.gitbook.com/), porém utilizando meu próprio repositório com o [GitBookIO](https://github.com/GitbookIO/gitbook). - Dica do [Jota Teles](https://github.com/woliveiras/vimparanoobs/issues/1).
 
 Se tiver alguma dica legal de uso do VIM, [manda pra mim!](mailto:w.oliveira542@gmail.com). :D
 
-[Pular Introdução](#usando-o-vim)
+Leia o conteúdo inteiro no [Gitbook](http://woliveiras.com.br/vim-para-noobs/livro/)
 
 ## Introdução
 
 **O que é VIM?**
 
-Se você caiu nesse repositório e nem mesmo sabe o que é [VIM](http://www.vim.org/), da uma olhada [aqui](http://aurelio.net/vim/vi-vim-venci.html) e, se quiser baixar um livro legal sobre o editor, olha [aqui](https://code.google.com/p/vimbook/downloads/list).
+Se você caiu nesse repositório e nem mesmo sabe o que é [VIM](http://www.vim.org/), da uma olhada [aqui](https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/), [aqui](http://aurelio.net/vim/vi-vim-venci.html) e, se quiser baixar um livro legal sobre o editor, olha [aqui](https://code.google.com/p/vimbook/downloads/list).
 
 **Por que usar VIM?**
 
@@ -43,42 +51,70 @@ Me mostrou os poderes do lado negro da força. Eu pensei: *"Preciso de todo esse
 
 Muita gente diz que usar o VIM é mais produtivo do que outros editores como o Sublime (:heart:). Então eu resolvi testar e tirar minhas conclusões de com qual editor vou me dar melhor.
 
-Para facilitar o workflow criei esse repo para deixar os comandos que mais utilizo, configurações, etc.
+*Quem sabe mais pra frente eu abandone de vez os outros editores.* ;D
 
-##Usando o VIM
+## Como contribuir com o projeto
 
-- [Primeiros passos com o VIM](./chapters/initial.md "Primeiros passos com o VIM")
-  - [Formando comandos no VIM](./chapters/initial.md#formando-comandos-no-vim "Formando comandos no VIM")
-- [Edição de texto](./chapters/editing.md "Edição texto")
-  - [Abrindo um arquivo](./chapters/editing.md#abrindo-um-arquivo "Abrindo um arquivo")
-  - [Alternando entre arquivos](./chapters/editing.md#alternando-entre-arquivos "Alternando entre arquivos")
-  - [Inserindo texto](./chapters/editing.md#entrando-no-modo-de-inserção "Inserindo texto")
-  - [Movimentos do cursor](./chapters/editing.md#movendo-o-cursor "Movimentos do cursor")
-  - [Salvando e fechando arquivos](./chapters/editing.md#salvando-ou-fechando-arquivos "Salvando e fechando arquivos")
-  - [Salvar como...](./chapters/editing.md#salvar-como "Salvar como...")
-  - [Deletando texto](./chapters/editing.md#comandos-para-deletar "Deletando texto")
-  - [Copiar e colar dentro do VIM](./chapters/editing.md#copiar-e-colar "Copiar e colar dentro do VIM")
-  - [Recortar e colar dentro do VIM](./chapters/editing.md#recortar-e-colar-comando-put "Recortar e colar dentro do VIM")
-  - [Replace](./chapters/editing.md#substituir-replace "Replace")
-  - [Replace em massa usando o operador de pesquisa](./editing.md#substituir-em-massa "Replace em massa usando o operador de pesquisa")
-  - [Desfazendo as coisas](./editing.md#desfazendo-as-coisas "Desfazendo as coisas")
-  - [Buscar texto dentro do arquivo](./chapters/editing.md#pesquisando-em-um-arquivo "Buscar texto dentro do arquivo")
-- [Executando comandos externos](./chapters/external_comands.md#executando-comandos-externos "Executando comandos externos")
-- [Dicas uteis](./chapters/util.md "Comandos e dicas uteis")
-  - [Criando Marcas](./chapters/util.md#marcas "Criando Marcas")
-  - [Criando Folders (ou dobras no texto)](./chapters/util.md#folders "Criando Folders (ou dobras no texto)")
-- [Personalizando o VIM](./chapters/personalize.md "Personalizando o VIM")
-  - [Não precisar setar configurações sempre](./personalize.md#não-precisar-setar-configurações-sempre "Não precisar setar configurações sempre")
-  - [Comandos e atalhos personalizados](./chapters/personalize.md#comandos-e-atalhos-personalizados "Comandos e atalhos personalizados")
-  - [Mudando o tema](./chapters/personalize.md#mudando-o-tema "Mudando o tema")
-  - [Adicionando sintaxes](./chapters/personalize.md#adicionando-sintaxes "Adicionando sintaxes")
-- [Plugins](./chapters/plugins.md "Adicionando plugins")
-  - [Instalando plugins no VIM](./chapters/plugins.md#instalando-os-plugins-com-vundle "Instalando plugins no VIM")
-  - [Removendo plugins](./chapters/plugins.md#removendo-plugins-com-vundle "Removendo plugins")
-  - [Alguns plugins maneiros](./chapters/suggestions.md#alguns-plugins-maneiros "Alguns plugins maneiros")
-  - [Temas legais](/chapters/suggestions.md#temas-legais "Temas legais")
-  - [Comandos uteis no .vimrc](./chapters/suggestions.md#comandos-uteis-no-vimrc "Comandos uteis no .vimrc")
-- [Trabalhando em Janelas dentro do VIM](./chapters/windows.md "Trabalhando em Janelas dentro do VIM")
-  - [Dividindo em janelas](./chapters/windows.md#dividindo-em-janelas "Dividindo em janelas")
-  - [Pulando de uma janela para outra](./windows.md#pulando-de-uma-janela-para-outra "Pulando de uma janela para outra")
-  - [Fechando janelas](./chapters/windows.md#fechar-janelas "Fechando janelas")
+Caso você encontre algum erro ou tenha alguma sugestão, pode contribuir comentando direto na caixa de comentários que aparece em cada sessão do GitBook ou abrir uma issue nesse repositório.
+
+Esse projeto é Open Source, então você também pode botar a mão na massa para melhorar ele, mas para isso vai precisar configurar em sua máquina.
+
+Recomento que, antes de efetuar alguma alteração, dê uma lida na documentação do [GitBookIO](https://github.com/GitbookIO/gitbook) para entender como tudo funciona.
+
+**Configurando o GitBookIO**
+
+Siga o passo a passo para configuração do seu ambiente de desenvolvimento com GitBookIO utilizando o manual oficial da ferramenta, [aqui](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+
+Assim que tiver tudo configurado, execute o comando:
+
+`gitbook install`
+
+Na raiz desse projeto, para instalar as dependências do Vim para Noobs.
+
+**Rodando local**
+
+Basta utilizar o comando:
+
+`gitbook serve`
+
+**Adicionando uma nova sessão/capitulo**
+
+Para adicionar uma nova sessão, devemos criar um arquivo Markdown dentro da pasta `chapters`. Esse arquivo deve possuir um nome que condiz com o seu conteúdo.
+
+Em seguida basta adicionar a referência ao arquivo no `SUMMARY.md`.
+
+Ex.:
+
+```
+/SUMMARY.md
+
+- [Nova sessão](/chapters/nova-sessao.md)
+```
+
+Atente-se para que a nova sessão tenha um fluxo com o que o livro tem seguido.
+
+Por exemplo: 
+
+- Introdução
+- Matando demonios com o VIM
+- Primeiros passos
+
+Não seria algo intuitivo a um iniciante no VIM, pois apresentaria muita magia negra de uma só vez antes mesmo de ensinar os primeiros passos com o editor.
+
+Caso você não saiba onde colocar sua nova sessão, podemos conversar nas issues. Basta abrir e informar o que está fazendo.
+
+**Escrevendo a página**
+
+A escrita dos capitulos é simples. É puro Markdown.
+
+Caso você não saiba Markdown, recomendo dar uma olhada nesse [link](https://daringfireball.net/projects/markdown/syntax).
+
+**Estáticos**
+
+As imagens do projeto ficam na pasta `images` e você pode referênciar elas normalmente usando a sintaxe Markdown.
+
+**Enviando sua contribuição**
+
+Assim que finalizar suas alterações, envie um [Pull Request](https://help.github.com/articles/creating-a-pull-request/) e aguarde. :)
+
+Não se preocupe com a parte de build e enviar para produção. Isso acontece depois da revisão de suas alterações.

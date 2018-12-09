@@ -1,9 +1,27 @@
 # Trabalhando com Janelas no VIM
 
-## Dividindo em janelas
+`:vsp` : Divide a janela verticalmente
 
-## Pulando de uma janela para outra
+`:sp` : Divide horizontalmente
 
-## Fechar janelas
+Você pode abrir arquivos diretamente na outra metade da janela com: `comando arquivo`.
 
-[Voltar ao início](https://github.com/woliveiras/vim-noobs/ "Voltar ao início")
+Ex.:
+
+```
+:vsp arquivo_x
+```
+
+Para alternar entre as duas metades você pode usar `CTRL+w` seguido da direção da janela.
+
+Ex.:
+
+```
+CTRL+w+l
+```
+
+Vai para a janela da direita.
+
+Se você quiser ficar somente com uma janela ativa use o comando `:only` na janela em questão.
+
+Para fechar uma janela use: `:quit`
